@@ -1,0 +1,16 @@
+PODS:
+  - CJKit (0.1.0)
+
+DEPENDENCIES:
+  - CJKit (from `../`)
+
+EXTERNAL SOURCES:
+  CJKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJKit: 7550b20e7851425d264a4053ab2be83d475abd5a
+
+PODFILE CHECKSUM: baffa32c0fbddab3119c98d6dab6b377eb041dea
+
+COCOAPODS: 1.6.1

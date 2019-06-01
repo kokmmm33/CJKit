@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CJKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CJKit.'
+  s.summary          = 'A Common Module'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,8 +17,11 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A short description of CJKit.A short description of CJKit.'
 
+  s.description  = <<-DESC
+  A short description of CJKit.A short description of CJKit.
+  DESC
+  
   s.homepage         = 'https://github.com/kokmmm33/CJKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -30,11 +33,19 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CJKit/Classes/**/*'
   
+  s.platform = :ios, '8.0'
+  s.swift_version = '4.2'
+  
+  s.dependency "Moya", "~> 12.0.1"
+  s.dependency "Kingfisher", "~> 4.10.1"
+  s.dependency "HandyJSON", "~> 4.2.1"
+  s.frameworks = 'UIKit'
+
+  
   # s.resource_bundles = {
   #   'CJKit' => ['CJKit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

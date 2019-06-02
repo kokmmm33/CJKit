@@ -1,22 +1,38 @@
 {
   "name": "CJKit",
-  "version": "0.1.0",
-  "summary": "A short description of CJKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/847008741@qq.com/CJKit",
+  "version": "0.1.1",
+  "summary": "A Common Module",
+  "description": "A short description of CJKit.A short description of CJKit.",
+  "homepage": "https://github.com/kokmmm33/CJKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "847008741@qq.com": "joseph7011@163.com"
+    "Joseph": "joseph7011@163.com"
   },
   "source": {
-    "git": "https://github.com/847008741@qq.com/CJKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/kokmmm33/CJKit.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CJKit/Classes/**/*"
+  "source_files": "CJKit/Classes/**/*",
+  "swift_version": "4.2",
+  "dependencies": {
+    "Moya": [
+      "~> 11.0.2"
+    ],
+    "Kingfisher": [
+      "~> 4.8.1"
+    ],
+    "HandyJSON": [
+      "~> 4.2.0-beta1"
+    ],
+    "SnapKit": [
+
+    ]
+  },
+  "frameworks": "UIKit"
 }

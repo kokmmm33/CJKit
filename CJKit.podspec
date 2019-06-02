@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A Common Module'
 
 # This description is used to generate tags and improve search results.
@@ -36,9 +36,9 @@ Pod::Spec.new do |s|
   s.platform = :ios, '8.0'
   s.swift_version = '4.2'
   
-  s.dependency "Moya", "~> 12.0.1"
-  s.dependency "Kingfisher", "~> 4.10.1"
-  s.dependency "HandyJSON", "~> 4.2.1"
+  s.dependency "Moya", "~> 11.0.2"
+  s.dependency "Kingfisher", "~> 4.8.1"
+  s.dependency "HandyJSON", "~> 4.2.0-beta1"
   s.frameworks = 'UIKit'
 
   

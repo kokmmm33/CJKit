@@ -1,6 +1,0 @@
-use_frameworks!
-target 'CJKit_Tests' do
-  pod 'CJKit', :path => '../'
-  
-  
-end
